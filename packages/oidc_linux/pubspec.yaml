@@ -20,9 +20,12 @@ dependencies:
   flutter:
     sdk: flutter
   logging: ^1.2.0
-  oidc_core: ^0.15.0  
-  oidc_desktop: ^0.7.0
-  oidc_platform_interface: ^0.7.0
+  oidc_core:
+    path: ../oidc_core
+  oidc_desktop:
+    path: ../oidc_desktop
+  oidc_platform_interface:
+    path: ../oidc_platform_interface
 
 dev_dependencies:
   flutter_test:

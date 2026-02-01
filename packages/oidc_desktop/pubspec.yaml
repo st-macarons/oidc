@@ -12,9 +12,12 @@ dependencies:
   flutter:
     sdk: flutter
   logging: ^1.2.0
-  oidc_core: ^0.15.0
-  oidc_loopback_listener: ^0.3.0
-  oidc_platform_interface: ^0.7.0
+  oidc_core:
+    path: ../oidc_core
+  oidc_loopback_listener:
+    path: ../oidc_loopback_listener
+  oidc_platform_interface:
+    path: ../oidc_platform_interface
   url_launcher: ^6.1.14
   window_to_front: ^0.0.3
 dev_dependencies:

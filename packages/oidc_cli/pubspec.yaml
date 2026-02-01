@@ -15,8 +15,10 @@ dependencies:
   cli_completion: ^0.5.1
   http: ^1.1.0
   mason_logger: ^0.3.3
-  oidc_core: ^0.15.0
-  oidc_loopback_listener: ^0.3.0
+  oidc_core:
+    path: ../oidc_core
+  oidc_loopback_listener:
+    path: ../oidc_loopback_listener
   path: ^1.9.1
   pub_updater: ^0.5.0
 
