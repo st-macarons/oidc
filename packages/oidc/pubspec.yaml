@@ -5,6 +5,7 @@ repository: https://github.com/Bdaya-Dev/oidc/tree/main/packages/oidc
 topics: ['oidc', 'openidconnect', 'oauth', 'authentication']
 homepage: https://bdaya-dev.github.io/oidc/
 resolution: workspace
+publish_to: none
 environment:
   sdk: ">=3.5.0 <4.0.0"
   flutter: ">=3.22.0"

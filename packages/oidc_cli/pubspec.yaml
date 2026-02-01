@@ -6,6 +6,7 @@ homepage: https://bdaya-dev.github.io/oidc/
 topics: ['oidc', 'openidconnect', 'oauth', 'authentication']
 
 resolution: workspace
+publish_to: none
 
 environment:
   sdk: ^3.9.0
